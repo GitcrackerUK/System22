@@ -1,0 +1,78 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.bg-dar{
+  background-color: #18191b;
+}
+.nav{
+  background-color: #18191b;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.carousel-caption {
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20%;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption h5{
+    color: #ffffff;
+    font-size: 42px;
+
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+}
+.carousel-caption p {
+    margin-top: 0;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #6495ED;
+}
+.carousel-item img{
+
+}
+.container h1 {
+  text-transform: capitalize;
+}
+.btn-info{
+  background-color: #6495ED;
+  border: 2px solid transparent;
+}
+a.btn-info:hover{
+  color: #6495ED;
+  background-color: transparent;
+  border: 2px solid #6495ED;
+}
+.btn.btn-info:not(:disabled):not(.disabled):active{
+  color: #6495ED;
+  background-color: transparent;
+  border: 2px solid #6495ED;
+}
+
+.btn{
+  padding: .4rem 2rem;
+}
+.specials{
+  background-color:  #18191b;
+  padding: 30px;
+}
+.specials h3 {
+  color: #fff;
+}
