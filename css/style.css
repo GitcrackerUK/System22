@@ -3,6 +3,11 @@ body {
   margin: 0px;
 }
 
+.img-responsive{
+  padding: 0px;
+  height: 120px;
+  width: 150px;
+}
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
@@ -14,6 +19,20 @@ body {
   background-color: #18191b;
   padding: 0px;
   margin-top: 0px;
+}
+.navbar-toggler-icon{
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    width: 83px;
+    height: 40px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+    border-bottom: 2px solid white;
 }
 
 .carousel-caption {
@@ -45,8 +64,15 @@ body {
     font-size: 24px;
     color: #6495ED;
 }
-.carousel-item img{
-
+.rounded-circle{
+  width:200px;
+  height:200px;
+}
+@media screen and (max-width:768px) {
+  .rounded-circle{
+    width:150px;
+    height:150px;
+  }
 }
 .container h1 {
   text-transform: capitalize;
@@ -65,7 +91,6 @@ a.btn-info:hover{
   background-color: transparent;
   border: 2px solid #6495ED;
 }
-
 .btn{
   padding: .4rem 2rem;
 }
@@ -74,5 +99,7 @@ a.btn-info:hover{
   padding: 30px;
 }
 .specials h3 {
+  padding-left: 5px;
   color: #fff;
+  font-size: 25px;
 }
