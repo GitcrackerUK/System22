@@ -125,3 +125,6 @@ a.btn-info:hover{
 .bg-men{
   background-color:#6495ED;
 }
+.card-img-top {
+    height: 250px;
+}
