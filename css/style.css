@@ -44,6 +44,8 @@ body {
     color: #fff;
     border-bottom: 2px solid white;
 }
+
+/* carousel */
 .carousel {
   margin-top: 100px;
 }
@@ -99,6 +101,11 @@ a.btn-info:hover{
   background-color: transparent;
   border: 2px solid #6495ED;
 }
+.btn-info:hover{
+  color: #6495ED;
+  background-color: transparent;
+  border: 2px solid #6495ED;
+}
 .btn.btn-info:not(:disabled):not(.disabled):active{
   color: #6495ED;
   background-color: transparent;
@@ -127,4 +134,36 @@ a.btn-info:hover{
 }
 .card-img-top {
     height: 250px;
+}
+.card{
+  margin-top: 20px;
+  box-shadow:2px 3px 15px #777;
+
+}
+.card-title{
+  text-transform:;
+  font-weight: bold;
+}
+.card-text{
+  margin-top: 30px;
+  height: 150px;
+}
+/* card  */
+.card-body{
+  text-align: center;
+}
+.modal-content{
+  background: #18191b;
+}
+.modal-content > h4 {
+  color: #fff;
+  padding: 5px;
+}
+.modal-content > h2 {
+  color: #fff;
+  padding: 5px;
+}
+.modal-content p{
+  color:#fff;
+  padding: 5px;
 }
