@@ -238,6 +238,15 @@ hr{
   opacity: 1;
   background: rgba(0, 0, 0, 0.7);
 }
-.fav > img {
+/* location */
 
+
+
+
+
+
+/* footer */
+#footer{
+  height: 700px;
+  background-color: #212529;
 }
