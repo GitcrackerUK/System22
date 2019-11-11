@@ -124,7 +124,9 @@ a.btn-info:hover{
   font-size: 25px;
 }
 /* staff */
-
+#staff{
+  padding-top: 30px;
+}
 
 
 
@@ -149,6 +151,15 @@ a.btn-info:hover{
   height: 180px;
 }
 /* card  */
+hr{
+    display: block;
+    height: 0.5px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
 .card-body{
   text-align: center;
 }
@@ -157,7 +168,8 @@ a.btn-info:hover{
 }
 .modal-content > h4 {
   color: #fff;
-  padding: 5px;
+  margin: 0px;
+  padding-top: 5px;
 }
 .modal-content > h2 {
   color: #fff;
@@ -165,5 +177,67 @@ a.btn-info:hover{
 }
 .modal-content p{
   color:#fff;
-  padding: 5px;
+}
+
+/* Parallax */
+.wtitle>h2{
+  font-size: 26px;
+  padding: 20px;
+  color: #fff;
+  font-weight:bold;
+  /* line-height: 1.6; */
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#plx{
+  background: url(../img/winebacklrg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wtitle{
+  padding: 150px 20px;
+}
+/* wines */
+#wines{
+  padding:30px 0px;
+}
+.table>tbody>tr>td>p{
+  font-size: 12px;
+}
+/* jumbotron */
+.jumbotron{
+  background-color: #d2d2d2;
+}
+.jumbotron>hr{
+    display: block;
+    height: 0.5px;
+    border: 0;
+    border-top: 1px solid #968f8f;
+    margin: 1em 0;
+    padding: 0;
+}
+/* cards */
+.card-text {
+    margin-top: 10px;
+    height: 100px;
+}
+/* overlay */
+.card-img{
+  height:229px;
+  
+}
+.card-img-overlay{
+  opacity: 0;
+  transition: 0.5s;
+
+}
+.card-img-overlay:hover{
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.4);
+}
+.fav > img {
+
 }

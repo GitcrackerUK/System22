@@ -32,6 +32,9 @@
             <li class="nav-item mr-1">
               <a class="nav-link" href="#menu">Menu</a>
             </li>
+            <li class="nav-item mr-1">
+              <a class="nav-link" href="#wines">Wines</a>
+            </li>
             <li class="nav-item mr-3">
               <a class="nav-link" style="width:65px;" href="#">Contact</a>
             </li>
@@ -139,24 +142,27 @@
     </section>
     <section>
       <div class="container text-center" id="staff">
-        <h2 class="mt-5">Our Team</h2>
+        <h2 class="staff">Our Team</h2>
         <div class="row">
-          <div class="col-sm-8 col-md-6">
+          <div class="col-sm-8 col-md-6 mt-3">
             <img src="img/adults-chef-cook-2696064.jpg" class=img-fluid alt="staff">
           </div>
-          <div class="col-sm-12 col-md-4  text-dark">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint .</p>
+          <div class="col-sm-12 col-md-4 mt-3 text-dark">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
           </div>
         </div>
-
+        <hr>
         <div class="row ">
           <div class="col-sm-12  col-md-4 text-dark">
-            <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin.</p>
-          </div>
-          <div class="col-sm-8 p-4">
+            <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin.</p>
+            </div>
+            <div class="col-sm-8 p-4">
               <img src="img/adult-blur-blurred-background-687824.jpg" class="img-fluid " alt="staff">
             </div>
-
         </div>
       </div>
     </section>
@@ -178,29 +184,39 @@
               <div class="card">
               <img class="card-img-top" src="img/picspree-347622.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Starters</h5>
-                <p class="card-text">For the first course I like to keep it light, fresh and simple (so you don’t spoil your appetite for the main event!); something that gets your taste buds going, like my fresh prawn and avocado spring rolls, or tomato and basil bruschetta.</p>
-                <button type="button" class="btn btn-info mt-3 " data-toggle="modal" data-target="#exampleModalLong">
+                <h5 class="card-title ">Starters</h5>
+                <p class="card-text">Choose from an extensive drinks menu with expertly mixed cocktails.</p>
+                <!-- Large modal -->
+                <button type="button" class="btn btn-info mt-1 mb-2 "  data-toggle="modal" data-target="#start">
                   View items
                 </button>
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal fade start" id="start" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                   <div class="modal-dialog" role="document">
-                    <div class="modal-content text-center">
-                        <h2 class="pt-3">Lager & Ales</h2>
-                        <hr class="col-xs-12">
-                        <h4>Peroni £4.35</h4>
-                        <h4>Estrella Galicia £4.20</h4>
-                        <h4>Curious Brew £4.20</h4>
-                        <h4>Estrella Damm £4.20</h4>
-                        <h4>Heineken £4.30</h4>
-                        <h4>Kirin Ichiban £4.35</h4>
-                        <h4>Modelo Especial £4.35</h4>
-                        <h4>Erdinger £5.20</h4>
-                      </div>
+                    <div class="modal-content">
+                      <div class="modal-content text-center">
+                        <h2 class="pt-3">Drinks</h3>
+                        <hr>
+                        <h4>Daiquiri   £8.50</h4>
+                        <p >Havana 3yr rum, fresh lime juice & sugar.</p>
+                        <h4>Clover Club   £7.50</h4>
+                        <p>Beefeater gin, lemon juice, grenadine & egg white.</p>
+                        <h4>Pisco Sour   £7.50</h4>
+                        <p>Pisco, lemon juice, egg white & syrup.</p>
+                        <h4>Lemon Caipirinha   £7.50</h4>
+                        <p>Cachaça rum, limoncello, sugar cane syrup & fresh lime.</p>
+                        <h4>Espresso Martini   £8.50</h4>
+                        <p>Absolut vodka, Tia Maria, vanilla syrup & shot of espresso.</p>
+                        <h4>Mai Tai   £8.50</h4>
+                        <p>Havana 7yr & 3yr rum, Cointreau, lime juice, orgeat syrup, pineapple juice & angostura bitters.</p>
+                        <h4>Singapore Sling   £8.50</h4>
+                        <p>Beefeater gin, Cherry Heering liquer, Bénédictine, Cointreau, pineapple juice, lemon juice, sugar syrup, angostura aromatic bitters & orange bitters.</p>
                     </div>
                   </div>
                 </div>
+              </div>
+              <!-- modal -->
+            </div>
               </div>
             </div>
 
@@ -210,29 +226,39 @@
 
               <img class="card-img-top" src="img/picspree-148095.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Main Dishes</h5>
-                <p class="card-text">Getting dinner on the table is easy with these main dishes and entrées. Recipes from our test kitchens professionals are designed to inspire – whether you are entertaining or cooking at home.</p>
-                <button type="button" class="btn btn-info mt-3 " data-toggle="modal" data-target="#exampleModalLong">
+                <h5 class="card-title ">Main</h5>
+                <p class="card-text">Choose from an extensive drinks menu with expertly mixed cocktails.</p>
+                <!-- Large modal -->
+                <button type="button" class="btn btn-info mt-1 mb-2 " data-toggle="modal" data-target="#main">
                   View items
                 </button>
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal fade" id="main" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                   <div class="modal-dialog" role="document">
-                    <div class="modal-content text-center">
-                        <h2 class="pt-3">Lager & Ales</h2>
-                        <hr class="col-xs-12">
-                        <h4>Peroni £4.35</h4>
-                        <h4>Estrella Galicia £4.20</h4>
-                        <h4>Curious Brew £4.20</h4>
-                        <h4>Estrella Damm £4.20</h4>
-                        <h4>Heineken £4.30</h4>
-                        <h4>Kirin Ichiban £4.35</h4>
-                        <h4>Modelo Especial £4.35</h4>
-                        <h4>Erdinger £5.20</h4>
-                      </div>
+                    <div class="modal-content">
+                      <div class="modal-content text-center">
+                        <h2 class="pt-3">Main</h3>
+                        <hr>
+                        <h4>Daiquiri   £8.50</h4>
+                        <p >Havana 3yr rum, fresh lime juice & sugar.</p>
+                        <h4>Clover Club   £7.50</h4>
+                        <p>Beefeater gin, lemon juice, grenadine & egg white.</p>
+                        <h4>Pisco Sour   £7.50</h4>
+                        <p>Pisco, lemon juice, egg white & syrup.</p>
+                        <h4>Lemon Caipirinha   £7.50</h4>
+                        <p>Cachaça rum, limoncello, sugar cane syrup & fresh lime.</p>
+                        <h4>Espresso Martini   £8.50</h4>
+                        <p>Absolut vodka, Tia Maria, vanilla syrup & shot of espresso.</p>
+                        <h4>Mai Tai   £8.50</h4>
+                        <p>Havana 7yr & 3yr rum, Cointreau, lime juice, orgeat syrup, pineapple juice & angostura bitters.</p>
+                        <h4>Singapore Sling   £8.50</h4>
+                        <p>Beefeater gin, Cherry Heering liquer, Bénédictine, Cointreau, pineapple juice, lemon juice, sugar syrup, angostura aromatic bitters & orange bitters.</p>
                     </div>
                   </div>
                 </div>
+              </div>
+              <!-- modal -->
+              </div>
               </div>
             </div>
 
@@ -244,29 +270,38 @@
               <div class="card">
                 <img class="card-img-top" src="img/appetizing-cheese-crust-2260561.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Pizzas</h5>
-                    <p class="card-text">Can you imagine a pizza so good that people who have eaten it have enjoyed it so much that they can’t stand to be without it?
-                    When the craving hits, and believe that it will, you will go to great lengths to be able to enjoy Asparago's pizza just one more time.</p>
-                    <button type="button" class="btn btn-info mt-3 " data-toggle="modal" data-target="#exampleModalLong">
-                      View items
-                    </button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                      <div class="modal-dialog" role="document">
+                  <h5 class="card-title ">Pizzas </h5>
+                  <p class="card-text">Choose from an extensive drinks menu with expertly mixed cocktails.</p>
+                  <!-- Large modal -->
+                  <button type="button" class="btn btn-info mt-1 mb-2 " data-toggle="modal" data-target="#pizza">
+                    View items
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="pizza" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
                         <div class="modal-content text-center">
-                          <h2 class="pt-3">Lager & Ales</h2>
-                          <hr class="col-xs-12">
-                          <h4>Peroni £4.35</h4>
-                          <h4>Estrella Galicia £4.20</h4>
-                          <h4>Curious Brew £4.20</h4>
-                          <h4>Estrella Damm £4.20</h4>
-                          <h4>Heineken £4.30</h4>
-                          <h4>Kirin Ichiban £4.35</h4>
-                          <h4>Modelo Especial £4.35</h4>
-                          <h4>Erdinger £5.20</h4>
-                          </div>
+                          <h2 class="pt-3">Pizza</h3>
+                          <hr>
+                          <h4>Daiquiri   £8.50</h4>
+                          <p >Havana 3yr rum, fresh lime juice & sugar.</p>
+                          <h4>Clover Club   £7.50</h4>
+                          <p>Beefeater gin, lemon juice, grenadine & egg white.</p>
+                          <h4>Pisco Sour   £7.50</h4>
+                          <p>Pisco, lemon juice, egg white & syrup.</p>
+                          <h4>Lemon Caipirinha   £7.50</h4>
+                          <p>Cachaça rum, limoncello, sugar cane syrup & fresh lime.</p>
+                          <h4>Espresso Martini   £8.50</h4>
+                          <p>Absolut vodka, Tia Maria, vanilla syrup & shot of espresso.</p>
+                          <h4>Mai Tai   £8.50</h4>
+                          <p>Havana 7yr & 3yr rum, Cointreau, lime juice, orgeat syrup, pineapple juice & angostura bitters.</p>
+                          <h4>Singapore Sling   £8.50</h4>
+                          <p>Beefeater gin, Cherry Heering liquer, Bénédictine, Cointreau, pineapple juice, lemon juice, sugar syrup, angostura aromatic bitters & orange bitters.</p>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                <!-- modal -->
                     </div>
                   </div>
                 </div>
@@ -275,28 +310,37 @@
                     <img class="card-img-top" src="img/bacon-bowl-bread-660282.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Burgers</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                      <button type="button" class="btn btn-info mt-3 " data-toggle="modal" data-target="#exampleModalLong">
+                      <p class="card-text">Choose from an extensive drinks menu with expertly mixed cocktails.</p>
+                      <!-- Large modal -->
+                      <button type="button" class="btn btn-info mt-1 mb-2 " data-toggle="modal" data-target="#burg">
                         View items
                       </button>
                       <!-- Modal -->
-                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                      <div class="modal fade" id="burg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                         <div class="modal-dialog" role="document">
-                          <div class="modal-content text-center">
-                              <h2 class="pt-3">Lager & Ales</h2>
-                              <hr class="col-xs-12">
-                              <h4>Peroni £4.35</h4>
-                              <h4>Estrella Galicia £4.20</h4>
-                              <h4>Curious Brew £4.20</h4>
-                              <h4>Estrella Damm £4.20</h4>
-                              <h4>Heineken £4.30</h4>
-                              <h4>Kirin Ichiban £4.35</h4>
-                              <h4>Modelo Especial £4.35</h4>
-                              <h4>Erdinger £5.20</h4>
-                            </div>
+                          <div class="modal-content">
+                            <div class="modal-content text-center">
+                              <h2 class="pt-3">Burgers</h3>
+                              <hr>Soups                         <h4>Daiquiri   £8.50</h4>
+                              <p >Havana 3yr rum, fresh lime juice & sugar.</p>
+                              <h4>Clover Club   £7.50</h4>
+                              <p>Beefeater gin, lemon juice, grenadine & egg white.</p>
+                              <h4>Pisco Sour   £7.50</h4>
+                              <p>Pisco, lemon juice, egg white & syrup.</p>
+                              <h4>Lemon Caipirinha   £7.50</h4>
+                              <p>Cachaça rum, limoncello, sugar cane syrup & fresh lime.</p>
+                              <h4>Espresso Martini   £8.50</h4>
+                              <p>Absolut vodka, Tia Maria, vanilla syrup & shot of espresso.</p>
+                              <h4>Mai Tai   £8.50</h4>
+                              <p>Havana 7yr & 3yr rum, Cointreau, lime juice, orgeat syrup, pineapple juice & angostura bitters.</p>
+                              <h4>Singapore Sling   £8.50</h4>
+                              <p>Beefeater gin, Cherry Heering liquer, Bénédictine, Cointreau, pineapple juice, lemon juice, sugar syrup, angostura aromatic bitters & orange bitters.</p>
                           </div>
                         </div>
                       </div>
+                    </div>
+                    <!-- modal -->
+                  </div>
                     </div>
                   </div>
                 <!-- card -->
@@ -304,29 +348,39 @@
               <div class="card">
                 <img class="card-img-top" src="img/beef-bowl-celery-2591594.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Soups</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  <button type="button" class="btn btn-info mt-3 " data-toggle="modal" data-target="#exampleModalLong">
+                  <h5 class="card-title ">Soups </h5>
+                  <p class="card-text">Choose from an extensive drinks menu with expertly mixed cocktails.</p>
+                  <!-- Large modal -->
+                  <button type="button" class="btn btn-info mt-1 mb-2 " data-toggle="modal" data-target="#Soups">
                     View items
                   </button>
                   <!-- Modal -->
-                  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                  <div class="modal fade" id="Soups" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                     <div class="modal-dialog" role="document">
-                      <div class="modal-content text-center">
-                          <h2 class="pt-3">Lager & Ales</h2>
-                          <hr class="col-xs-12">
-                          <h4>Peroni £4.35</h4>
-                          <h4>Estrella Galicia £4.20</h4>
-                          <h4>Curious Brew £4.20</h4>
-                          <h4>Estrella Damm £4.20</h4>
-                          <h4>Heineken £4.30</h4>
-                          <h4>Kirin Ichiban £4.35</h4>
-                          <h4>Modelo Especial £4.35</h4>
-                          <h4>Erdinger £5.20</h4>
-                          </div>
-                        </div>
+                      <div class="modal-content">
+                        <div class="modal-content text-center">
+                          <h2 class="pt-3">Soups</h3>
+                          <hr>
+                          <h4>Daiquiri   £8.50</h4>
+                          <p >Havana 3yr rum, fresh lime juice & sugar.</p>
+                          <h4>Clover Club   £7.50</h4>
+                          <p>Beefeater gin, lemon juice, grenadine & egg white.</p>
+                          <h4>Pisco Sour   £7.50</h4>
+                          <p>Pisco, lemon juice, egg white & syrup.</p>
+                          <h4>Lemon Caipirinha   £7.50</h4>
+                          <p>Cachaça rum, limoncello, sugar cane syrup & fresh lime.</p>
+                          <h4>Espresso Martini   £8.50</h4>
+                          <p>Absolut vodka, Tia Maria, vanilla syrup & shot of espresso.</p>
+                          <h4>Mai Tai   £8.50</h4>
+                          <p>Havana 7yr & 3yr rum, Cointreau, lime juice, orgeat syrup, pineapple juice & angostura bitters.</p>
+                          <h4>Singapore Sling   £8.50</h4>
+                          <p>Beefeater gin, Cherry Heering liquer, Bénédictine, Cointreau, pineapple juice, lemon juice, sugar syrup, angostura aromatic bitters & orange bitters.</p>
                       </div>
                     </div>
+                  </div>
+                </div>
+                <!-- modal -->
+              </div>
                   </div>
                 </div>
                 <!-- row -->
@@ -343,7 +397,7 @@
                         <h5 class="card-title ">Drinks </h5>
                         <p class="card-text">Choose from an extensive drinks menu with expertly mixed cocktails.</p>
                         <!-- Large modal -->
-                        <button type="button" class="btn btn-info mt-3 " data-toggle="modal" data-target="#Drinks">
+                        <button type="button" class="btn btn-info mt-1 mb-2 " data-toggle="modal" data-target="#Drinks">
                           View items
                         </button>
                         <!-- Modal -->
@@ -352,9 +406,9 @@
                             <div class="modal-content">
                               <div class="modal-content text-center">
                                 <h2 class="pt-3">Drinks</h3>
-                                <hr class="col-xs-12">
+                                <hr>
                                 <h4>Daiquiri   £8.50</h4>
-                                <p>Havana 3yr rum, fresh lime juice & sugar.</p>
+                                <p >Havana 3yr rum, fresh lime juice & sugar.</p>
                                 <h4>Clover Club   £7.50</h4>
                                 <p>Beefeater gin, lemon juice, grenadine & egg white.</p>
                                 <h4>Pisco Sour   £7.50</h4>
@@ -382,13 +436,214 @@
           </div>
         </div>
     </section>
-    <!-- Optional JavaScript -->
+    <!-- Parallax -->
+    <section id="plx">
+      <div class="container">
+        <div class="wtitle text-center">
+          <h2 class="text-capitalize">We have the best wine selection on the planet <br> Wines are selected by our experts from all around the world</h2>
+        </div>
+      </div>
+    </section>
+    <!-- wines -->
+    <section id="wines">
+      <div class="container">
+        <div class="qtitle text-center text-dark">
+          <h2>Wine Selection</h2>
+          <p>Complement your meal with one of our award winning wines.</p>
+        </div>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Wine</th>
+              <th scope="col">Glass 175ml</th>
+              <th scope="col">Bottle 750ml</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>PINOT GRIGI<p>'Foundstone' Berton Vineyard,  South Eastern Australia</p></td>
+              <td>£6.85</td>
+              <td>£26.95</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>CHENIN BLANC<p>Hazy View, Western Cape, South Africa</p></td>
+              <td>£5.50</td>
+              <td>£20.95</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>SAUVIGNON BLANC<p>Waddling Duck, Marlborough, New Zealand</p></td>
+              <td>£5.95</td>
+              <td>£22.95</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>PINOTAGE<p>Hazy View, Western Cape, South Africa</p></td>
+              <td>£6.85</td>
+              <td>£26.95</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>MALBEC<p>'1300' Andeluna Mendoza Argentina</p></td>
+              <td>£5.50</td>
+              <td>£20.95</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>CABERNET SAUVIGNON<p>Jim Barry Cover Drive Coonawarra  Australia</p></td>
+              <td>£5.95</td>
+              <td>£22.95</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>MERLOT<p>Vellas Chile</p></td>
+              <td>£6.85</td>
+              <td>£26.95</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>PINOT NOIR<p>'Devil’s Staircase' Rockburn, Central Otago, New Zealand</p></td>
+              <td>£5.50</td>
+              <td>£20.95</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>SAUVIGNON BLANC<p>'Vellas' Tierra Antica, Valle Central, Chile</p></td>
+              <td>£5.95</td>
+              <td>£22.95</td>
+            </tr>
+
+            <tr>
+              <th scope="row">10</th>
+              <td>CHÂTEAUNEUF-DU-PAPE<p>'Les Cailloux' Andre Brunel Rhone, Frane</p></td>
+              <td>£6.85</td>
+              <td>£26.95</td>
+            </tr>
+            <tr>
+              <th scope="row">11</th>
+              <td>SHIRAZ<p>Boundary Line,  Australia </p></td>
+              <td>£5.50</td>
+              <td>£20.95</td>
+            </tr>
+            <tr>
+              <th scope="row">12</th>
+              <td>ROSÉ CUVÉE<p>Henri Fabre,Côtes de Provence</p></td>
+              <td>£5.95</td>
+              <td>£22.95</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="jumbotron text-center">
+          <h1 class="display-4">Customer Favourites!</h1>
+          <p class="lead">Some of our favourites dishes.</p>
+          <hr>
+          <p>See what our customers like best!</p>
+          <!-- crads -->
+          <section id="favs">
+            <div class="container pb-2">
+              <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-5 pb-4 mt-4">
+                  <div class="card text-white">
+                    <img src="img/cards/original_Beef-Wellington_1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Beef Wellington</h5><hr>
+                      <p>Beef fillet wrapped in mushrooms, paté and puff pastry.<br><hr> £8.60</p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-lg-3 col-md-5  pb-1 mt-4">
+                    <div class="card text-white">
+                      <img src="img/cards/porklion.jpg" class="card-img" alt="...">
+                      <div class="card-img-overlay">
+                        <h5 class="card-title">Roast Pork </h5><hr>
+                        <p>Generously season your pork roast with salt and pepper.<br><hr>£7.25</p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-lg-3 col-md-5 pb-1 mt-4 ">
+                  <div class="card text-white">
+                    <img src="img/cards/friedrice.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Kimchi Fried Rice</h5><hr>
+                      <p>Taste of Home Test Kitchen, Milwaukee, Wisconsin<br><hr>£5.50</p>
+                </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-5 pb-1 mt-4">
+                  <div class="card text-white">
+                    <img src="img/cards/Roasted-Salmon-Kale-Apple-and-Fennel-Salad1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Roasted Salmon Kale</h5><hr>
+                      <p>Fresh Salmon roasted with butter and Kale.<br><hr>£12.50</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-5 pb-4 mt-4">
+                  <div class="card text-white">
+                    <img src="img/cards/roastedcuscus.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Roasted Chicken & Cuscus</h5><hr>
+                      <p>Slowly roasted chicken served with cuscus<br><hr>£15.50</p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-lg-3 col-md-5  pb-1 mt-4">
+                    <div class="card text-white">
+                      <img src="img/cards/roastturkey.jpg" class="card-img" alt="...">
+                      <div class="card-img-overlay">
+                        <h5 class="card-title">Roasted Turkey</h5><hr>
+                        <p>Tofurkey has been always a holiday staple in our vegetarian home.<br><hr>£7.50</p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-lg-3 col-md-5 pb-1 mt-4">
+                  <div class="card text-white">
+                    <img src="img/cards/taco.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"> McCormick® Tacos</h5><hr>
+                      <p>Tacos is a quick and easy weeknight dinner idea for the entire family.<br><hr>£6.50</p>
+                </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-5 pb-1 mt-4">
+                  <div class="card text-white">
+                    <img src="img/cards/tortilla.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Chicken Taco Bowls</h5><hr>
+                      <p>Crunchy taco bowls with this easy muffin-tin hack!<br><hr>£6.50</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+            <!-- crads -->
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- script for srollspy-->
-    <script>$('body').scrollspy({ target: '#navbarSupportedContent', offset:110 })</script>
+    <script>$('body').scrollspy({ target: '#navbarSupportedContent', offset:115 })</script>
     <!-- smooth Scroll -->
     <script src="smooth-scroll-master/src/js/smooth-scroll/smooth-scroll.js"></script>
     <script>
