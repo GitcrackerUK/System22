@@ -227,7 +227,7 @@ hr{
 /* overlay */
 .card-img{
   height:229px;
-  
+
 }
 .card-img-overlay{
   opacity: 0;
@@ -236,7 +236,7 @@ hr{
 }
 .card-img-overlay:hover{
   opacity: 1;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
 }
 .fav > img {
 
