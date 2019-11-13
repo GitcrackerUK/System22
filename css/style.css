@@ -257,7 +257,7 @@ hr{
   transform: scale(3);
   box-shadow: 5px 5px 15px #333;
   z-index: 10;
-  
+
 }
 iframe{
   padding-top: 20px;
@@ -267,6 +267,6 @@ iframe{
 
 /* footer */
 #footer{
-  height: 700px;
+  height: 200px;
   background-color: #212529;
 }
