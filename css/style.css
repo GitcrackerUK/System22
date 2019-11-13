@@ -239,9 +239,29 @@ hr{
   background: rgba(0, 0, 0, 0.7);
 }
 /* location */
+#location{
+  background: url(../img/collapse_city/img-world-map.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loc{
 
+}
+.loc img{
+  transition-duration: 1.5s;
+}
+.loc img:hover{
 
-
+  transform: scale(3);
+  box-shadow: 5px 5px 15px #333;
+  z-index: 10;
+  
+}
+iframe{
+  padding-top: 20px;
+}
 
 
 
