@@ -268,7 +268,7 @@ iframe{
   background-color: #18191b;
 }
 
-.carousel-inner{
+#testimonials .carousel-inner{
   padding: 50px 0px 30px 0px;
 
 }
@@ -284,16 +284,20 @@ iframe{
 }
 /* vid */
 #vid{
-  padding: 100px 0px;
+      padding: 50px 0px 50px 0px;
 }
 #vidp{
   margin-top: 10px;
   text-align: left;
   font-size: 14px;
 }
-
-
-
+/* hire */
+#hire h3{
+  text-shadow: 5px 5px 10px #888888;
+}
+#hire .jumbotron{
+      padding: 2rem 1rem;
+}
 /* footer */
 #footer{
   height: 200px;
