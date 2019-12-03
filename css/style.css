@@ -262,6 +262,26 @@ hr{
 iframe{
   padding-top: 20px;
 }
+/* testimonials */
+#testimonials{
+  color: white;
+  background-color: #18191b;
+}
+
+.carousel-inner{
+  padding: 50px 0px 50px 0px;
+
+}
+.carousel-item{
+  min-height: 250px;
+}
+#testimonials .rounded-circle {
+    width: 100px;
+    height: 100px;
+}
+.active{
+  border: none;
+}
 
 
 
