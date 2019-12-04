@@ -1,14 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <title>Asparago</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link href="http://v4-alpha.getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
     <link rel="icon" href="img/images.png">
-    <title>Asparago</title>
+
     <link rel="stylesheet" href="css/style.css">
+
 
   </head>
 
@@ -772,6 +774,34 @@
         </div>
       </div>
     </div>
+    <!-- counter -->
+    <section id="numbers">
+      <div class="container" id="numcon">
+        <div class="text-center text-dark pb-3">
+          <h2 class="pb-3">Delicious items Served This Week!</h2>
+        </div>
+        <div class="row text-center">
+          <div class=" col-sm-6 col-md-3 col-lg-3">
+            <h1 class="numc mx-auto"><span class='numscroller' data-min='1' data-max='784' data-delay='10' data-increment='10'>0</span></h1>
+            <h5 class="pb-3">Appetizers</h5>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <h1 class="numc mx-auto"><span class='numscroller' data-min='1' data-max='300' data-delay='10' data-increment='10'>0</span></h1>
+            <h5 class="pb-3">Entres</h5>
+          </div>
+          <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <h1 class="numc mx-auto"><span class='numscroller' data-min='1' data-max='378' data-delay='10' data-increment='10'>0</span></h1>
+            <h5 class="pb-3">Deserts</h5>
+          </div>
+          <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <h1 class="numc mx-auto"> <span class='numscroller' data-min='1' data-max='221' data-delay='10' data-increment='10'>0</span></h1>
+            <h5>Wines</h5>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
 
 
 
@@ -794,6 +824,7 @@
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -807,6 +838,8 @@
          speedAsDuration: true
        });
     </script>
+    <!-- num scroll -->
+    <script src="numscroller-1.0.js"></script>
     <!-- Youtube iframe embeded without sound -->
     <script async src="https://www.youtube.com/iframe_api"></script>
       <script>

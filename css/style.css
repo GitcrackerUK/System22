@@ -312,6 +312,7 @@ iframe{
   position: fixed;
   right: -300px;
   top: 130px;
+  transition: 1s ;
 }
 .pop-box:hover{
   right:-10px;
@@ -335,4 +336,21 @@ iframe{
 }
 .cleare{
   clear: both;
+}
+/* counter */
+#numcon{
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.numc{
+  margin-bottom: 5px;
+  font-size: 25px;
+  padding-right: 3px;
+  padding-top: 35px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  color: #fff;
+  background-color: #6495ED;
 }
