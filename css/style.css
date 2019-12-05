@@ -259,9 +259,6 @@ hr{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.loc{
-
-}
 .loc img{
   transition-duration: 1.5s;
 }
@@ -270,7 +267,6 @@ hr{
   transform: scale(3);
   box-shadow: 5px 5px 15px #333;
   z-index: 10;
-
 }
 iframe{
   padding-top: 20px;
@@ -369,10 +365,16 @@ iframe{
 /* contact */
 #Contact{
   margin: 25px 0px;
+
 }
 #Contact label{
   font-size: 20px;
 }
-#cont{
-
+/* location big */
+.map{
+  box-shadow: 5px 10px 25px #555;
+}
+.map iframe{
+  border: none;
+  margin:none;
 }
