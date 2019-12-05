@@ -307,11 +307,7 @@ iframe{
 #hire .jumbotron{
       padding: 20px;
 }
-/* footer */
-#footer{
-  height: 200px;
-  background-color: #212529;
-}
+
 /* pop-up box*/
 .pop-box{
   width: 300px;
@@ -377,4 +373,22 @@ iframe{
 .map iframe{
   border: none;
   margin:none;
+}
+/* footer */
+#footer{
+  background-color: #18191b;
+}
+.cpt{
+  padding-top: 39px;
+}
+.fontsfooter{
+  font-size: 40px;
+  padding-top: 5px;
+
+}
+#footer a{
+  color: white;
+}
+#footer a:hover{
+  color: #6495ED;
 }
