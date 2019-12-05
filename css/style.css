@@ -128,9 +128,20 @@ a.btn-info:hover{
 #staff{
   padding-top: 30px;
 }
+/* video vodkabears */
+#videojs{
+  margin:50px 0px 0px 0px;
+  background: rgba(0, 0, 0, 0.7);
+}
+#videojs p{
+  text-transform: capitalize;
+}
+.winebear{
+  padding-top: 170px;
+}
+#wineid{
 
-
-
+}
 /* menu */
 .bg-men{
   background-color:#6495ED;
@@ -139,9 +150,10 @@ a.btn-info:hover{
     height: 250px;
 }
 .card{
-  margin-top: 20px;
   box-shadow:2px 3px 15px #777;
-
+}
+.solo{
+      padding-bottom: 25px;
 }
 .card-title{
   text-transform:;
