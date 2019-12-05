@@ -41,17 +41,13 @@ body {
   border-bottom: 2px solid white;
   color: #fff;
 }
-.navbar-nav .nav-link: {
-    color: #fff;
-    border-bottom: 2px solid white;
-}
+
 
 /* carousel */
 .carousel {
   margin-top: 100px;
 }
 .carousel-caption {
-
     border-radius: 5px;
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
@@ -115,6 +111,7 @@ a.btn-info:hover{
 .btn{
   padding: .4rem 2rem;
 }
+/* specials */
 .specials{
   background-color:  #18191b;
   padding: 30px;
@@ -123,6 +120,9 @@ a.btn-info:hover{
   padding-left: 5px;
   color: #fff;
   font-size: 25px;
+}
+.specials .btn{
+  width: auto;
 }
 /* staff */
 #staff{
